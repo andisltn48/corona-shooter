@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EndScreenScript : MonoBehaviour
@@ -12,9 +13,15 @@ public class EndScreenScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
         scoreFinalText.text = "Score : " + ScoreText.scoreAmount;
+
         if (ScoreText.scoreAmount >= 1)
         {
+            if (currentLevel >= PlayerPrefs.GetInt("levelUnlocked"))
+            {
+                PlayerPrefs.SetInt("levelUnlocked", currentLevel + 1);
+            }
             WinText.SetActive(true);
         }
         else
