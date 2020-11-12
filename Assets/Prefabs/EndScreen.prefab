@@ -206,18 +206,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7401455506162201019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SceneToLoad
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &820731141990791598
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +924,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5374793172280570486}
+      - m_Target: {fileID: 0}
         m_MethodName: bacaLembaran
         m_Mode: 1
         m_Arguments:
@@ -1316,7 +1305,7 @@ GameObject:
   - component: {fileID: 5417515162667368845}
   - component: {fileID: 7097768754959330262}
   - component: {fileID: 1538251361790983020}
-  - component: {fileID: 5374793172280570486}
+  - component: {fileID: 4408219414232292932}
   m_Layer: 5
   m_Name: EndScreen
   m_TagString: Untagged
@@ -1386,7 +1375,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &5374793172280570486
+--- !u!114 &4408219414232292932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1398,8 +1387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a3f7f546ee34a41b825960c6f9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreFinalGreen: {fileID: 0}
-  scoreFinalRed: {fileID: 0}
+  scoreFinalGreen: {fileID: 3161805252795919081}
+  scoreFinalRed: {fileID: 5001594150070808423}
   WinText: {fileID: 2038951509291062246}
   LoseText: {fileID: 290373963918927315}
   titleWin: {fileID: 2768414765369854936}
