@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: fad236a3b0354404cb6b53f68b21d752
   - enabled: 1
+    path: Assets/Scenes/PrologScene.unity
+    guid: 51ade38de97de744c910a2c6bd70d070
+  - enabled: 1
     path: Assets/Scenes/StoryMenuScene.unity
     guid: 65ae22b158fc2d842b98a89bfa02f855
-  - enabled: 1
-    path: Assets/Scenes/ArcadeScene.unity
-    guid: 4f25df40a1977644bad9d5384a1ef8ee
   - enabled: 1
     path: Assets/Scenes/Stage1Scene.unity
     guid: 3f81ccef737220b42bf51088edca9f4a
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage4Scene.unity
     guid: 875a96741163c8f4285b26ecbd2b3c14
+  - enabled: 1
+    path: Assets/Scenes/ArcadeScene.unity
+    guid: 4f25df40a1977644bad9d5384a1ef8ee
   m_configObjects: {}

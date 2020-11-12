@@ -1,11 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     public GameObject popup;
+    int sceneIndex;
+
+    void Start()
+    {
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;   
+    }
 
     public void SceneToLoad(int stage)
     {
@@ -22,5 +29,15 @@ public class GameController : MonoBehaviour
     public void MissionDetails(GameObject details)
     {
         details.SetActive(!details.activeSelf);
+    }
+    public void replayGame()
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
+    public void reset()
+    {
+        
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(sceneIndex);
     }
 }
