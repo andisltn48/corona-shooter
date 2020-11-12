@@ -6,21 +6,24 @@ using UnityEngine.UI;
 
 public class EndScreenScript : MonoBehaviour
 {
-    [SerializeField] Text scoreFinalText;
+    [SerializeField] Text scoreFinalGreen;
+    [SerializeField] Text scoreFinalRed;
     public GameObject WinText, LoseText, titleWin, readButton, textReward, titleLose, nextButton, replayButton;
-    
+    public int minGreen, minRed;
 
     // Start is called before the first frame update
     void Start()
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
-        scoreFinalText.text = "Score : " + ScoreText.scoreAmount;
+        scoreFinalGreen.text = "Hijau: " + ScoreText.scoreAmountGreen;
+        scoreFinalRed.text = "Merah: " + ScoreText.scoreAmountRed;
 
-        if (ScoreText.scoreAmount >= 1)
+        if (ScoreText.scoreAmountGreen >= minGreen && ScoreText.scoreAmountRed >= minRed) 
         {
             if (currentLevel >= PlayerPrefs.GetInt("levelUnlocked"))
             {
-                PlayerPrefs.SetInt("levelUnlocked", currentLevel + 1);
+                PlayerPrefs.SetInt("levelUnlocked", currentLevel+1);
+                Debug.Log("level sekarang" + currentLevel);
             }
             WinText.SetActive(true);
         }

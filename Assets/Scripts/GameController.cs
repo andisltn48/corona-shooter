@@ -34,4 +34,10 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+    public void reset()
+    {
+        
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(sceneIndex);
+    }
 }

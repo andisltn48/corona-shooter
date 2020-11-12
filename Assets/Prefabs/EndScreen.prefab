@@ -125,7 +125,7 @@ RectTransform:
   m_Children:
   - {fileID: 4462062960411660598}
   m_Father: {fileID: 5417515162667368845}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22669105, y: 0.10638141}
   m_AnchorMax: {x: 0.47400004, y: 0.25020877}
@@ -250,7 +250,7 @@ RectTransform:
   m_Children:
   - {fileID: 6909290507464215524}
   m_Father: {fileID: 5417515162667368845}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5405393, y: 0.10638141}
   m_AnchorMax: {x: 0.79338217, y: 0.23788181}
@@ -421,6 +421,83 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '" Masker dibuat untuk melindungi dari droplet yang di keluarkan oleh orang
     lain agar tidak masuk ke hidung dan mulut kita ataupun sebaliknya "'
+--- !u!1 &1084099715059127799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7842714395320022446}
+  - component: {fileID: 8308142191943736573}
+  - component: {fileID: 5001594150070808423}
+  m_Layer: 5
+  m_Name: ScoreTextRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7842714395320022446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084099715059127799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5417515162667368845}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.24400002, y: 0.6724654}
+  m_AnchorMax: {x: 0.75384825, y: 0.8227275}
+  m_AnchoredPosition: {x: 1.0003662, y: -1.5}
+  m_SizeDelta: {x: 0.2999878, y: 9.090576}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8308142191943736573
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084099715059127799}
+  m_CullTransparentMesh: 0
+--- !u!114 &5001594150070808423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084099715059127799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5fffb8c90330d1d4fb68054b87d320d4, type: 3}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PLACEHOLDER
 --- !u!1 &1623491058667311164
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +532,7 @@ RectTransform:
   - {fileID: 3533901270680488305}
   - {fileID: 1543343187594365132}
   m_Father: {fileID: 5417515162667368845}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.279, y: 0.29452553}
   m_AnchorMax: {x: 0.71712315, y: 0.6724654}
@@ -981,7 +1058,7 @@ RectTransform:
   m_Children:
   - {fileID: 1059807598211497714}
   m_Father: {fileID: 5417515162667368845}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5405393, y: 0.10638141}
   m_AnchorMax: {x: 0.79338217, y: 0.23788181}
@@ -1261,6 +1338,7 @@ RectTransform:
   - {fileID: 4296525781369421743}
   - {fileID: 5309892761946234996}
   - {fileID: 9002700182575577388}
+  - {fileID: 7842714395320022446}
   - {fileID: 848541630477240750}
   - {fileID: 7214396560957269265}
   - {fileID: 6837964008489949716}
@@ -1320,7 +1398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a3f7f546ee34a41b825960c6f9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreFinalText: {fileID: 3161805252795919081}
+  scoreFinalGreen: {fileID: 0}
+  scoreFinalRed: {fileID: 0}
   WinText: {fileID: 2038951509291062246}
   LoseText: {fileID: 290373963918927315}
   titleWin: {fileID: 2768414765369854936}
@@ -1329,6 +1408,8 @@ MonoBehaviour:
   titleLose: {fileID: 1748252916323320979}
   nextButton: {fileID: 3527353363548245749}
   replayButton: {fileID: 820731141990791598}
+  minGreen: 0
+  minRed: 0
 --- !u!1 &7599237795624114193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,7 +1499,7 @@ GameObject:
   - component: {fileID: 2951094306402517811}
   - component: {fileID: 3161805252795919081}
   m_Layer: 5
-  m_Name: ScoreText
+  m_Name: ScoreTextGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
