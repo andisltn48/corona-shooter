@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fef4a6b36efb48429b88ca8b77990de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 5
   countdownText: {fileID: 1901900496}
   GameOverScreen: {fileID: 33746112}
 --- !u!114 &1678583763
