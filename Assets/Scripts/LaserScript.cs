@@ -23,7 +23,7 @@ public class LaserScript : MonoBehaviour
             }
             if (hit.transform.name == "RedVirus" || hit.transform.name == "RedVirus(Clone)")
             {
-                ScoreText.scoreAmountRed += 1;
+                ScoreText2.scoreAmountRed += 1;
                 //Debug.Log(ScoreText.scoreAmount);
                 Destroy(hit.transform.gameObject);
             }

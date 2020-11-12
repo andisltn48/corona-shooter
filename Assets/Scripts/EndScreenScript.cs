@@ -16,9 +16,9 @@ public class EndScreenScript : MonoBehaviour
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
         scoreFinalGreen.text = "Hijau: " + ScoreText.scoreAmountGreen;
-        scoreFinalRed.text = "Merah: " + ScoreText.scoreAmountRed;
+        scoreFinalRed.text = "Merah: " + ScoreText2.scoreAmountRed;
 
-        if (ScoreText.scoreAmountGreen >= minGreen && ScoreText.scoreAmountRed >= minRed) 
+        if (ScoreText.scoreAmountGreen >= minGreen && ScoreText2.scoreAmountRed >= minRed) 
         {
             if (currentLevel >= PlayerPrefs.GetInt("levelUnlocked"))
             {
