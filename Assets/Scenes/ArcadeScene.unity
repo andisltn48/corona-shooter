@@ -1059,8 +1059,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ARCamera: {fileID: 529410711}
   Smoke: {fileID: 0}
-  GreenScore: 1
-  RedScore: 3
 --- !u!4 &547059418
 Transform:
   m_ObjectHideFlags: 0
@@ -1664,9 +1662,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a3f7f546ee34a41b825960c6f9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreFinalText: {fileID: 201148639}
+  scoreFinalGreen: {fileID: 0}
+  scoreFinalRed: {fileID: 0}
   WinText: {fileID: 89116769}
   LoseText: {fileID: 706329522}
+  titleWin: {fileID: 0}
+  readButton: {fileID: 0}
+  textReward: {fileID: 0}
+  titleLose: {fileID: 0}
+  nextButton: {fileID: 0}
+  replayButton: {fileID: 0}
+  minGreen: 0
+  minRed: 0
 --- !u!114 &975280075
 MonoBehaviour:
   m_ObjectHideFlags: 0
