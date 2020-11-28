@@ -10,11 +10,11 @@ public class ButtonLock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int levelUnlocked = PlayerPrefs.GetInt("levelUnlocked", 3);
+        int levelUnlocked = PlayerPrefs.GetInt("levelUnlocked", 5);
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            if(i + 3 > levelUnlocked)
+            if(i + 5 > levelUnlocked)
             {
                 buttons[i].interactable = false;
             }
