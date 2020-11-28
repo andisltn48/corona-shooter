@@ -55,7 +55,7 @@ public class DialogScript : MonoBehaviour
         }
         else if (i == 5)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(3);
         }
 
     }
