@@ -861,7 +861,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Misi : Kalahkan 30 Virus Hijau dan 20 Virus Merah dalam waktu 60 Detik!
+  m_Text: 'Misi : Kalahkan 30 Virus Hijau dan 15 Virus Merah dalam waktu 60 Detik!
 
 '
 --- !u!222 &240137081
@@ -1482,7 +1482,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Misi : Kalahkan 50 Virus Merah dalam waktu 60 Detik!
+  m_Text: 'Misi : Kalahkan 40 Virus Merah dalam waktu 60 Detik!
 
 '
 --- !u!222 &423685258
@@ -2196,7 +2196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Misi : Kalahkan 30 Virus Hijau dalam waktu 60 Detik!
+  m_Text: 'Misi : Kalahkan 30 Virus Hijau dalam waktu 70 Detik!
 
 '
 --- !u!222 &672242147

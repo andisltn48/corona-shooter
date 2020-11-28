@@ -39,23 +39,25 @@ public class DialogScript : MonoBehaviour
         }
         else if (i == 3)
         {
-            title1.SetActive(true);
+            title2.SetActive(true);
+            title1.SetActive(false);
             dialog1.SetActive(false);
-            dialog4.SetActive(true);
             dialog3.SetActive(false);
-            myimage.GetComponent<Image>().sprite = image1;
+            dialog4.SetActive(true);
+            
+            myimage.GetComponent<Image>().sprite = image2;
         }
         else if (i == 4)
         {
-            title1.SetActive(false);
+            title2.SetActive(false);
             dialog4.SetActive(false);
-            title2.SetActive(true);
+            title1.SetActive(true);
             dialog5.SetActive(true);
-            myimage.GetComponent<Image>().sprite = image2;
+            myimage.GetComponent<Image>().sprite = image1;
         }
         else if (i == 5)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(2);
         }
 
     }

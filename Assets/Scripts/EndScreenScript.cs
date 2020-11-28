@@ -8,7 +8,7 @@ public class EndScreenScript : MonoBehaviour
 {
     [SerializeField] Text scoreFinalGreen;
     [SerializeField] Text scoreFinalRed;
-    public GameObject WinText, LoseText, titleWin, readButton, textReward, titleLose, nextButton, replayButton;
+    public GameObject WinText, LoseText, titleWin, readButton, textReward, titleLose, nextButton, replayButton, image;
     public int minGreen, minRed;
 
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class EndScreenScript : MonoBehaviour
             readButton.SetActive(false);
             nextButton.SetActive(false);
             titleWin.SetActive(false);
-
+            image.SetActive(false);
         }
     }
     public void bacaLembaran()
@@ -43,5 +43,6 @@ public class EndScreenScript : MonoBehaviour
         textReward.SetActive(true);
         readButton.SetActive(false);
         titleWin.SetActive(false);
+        image.SetActive(false);
     }
 }
