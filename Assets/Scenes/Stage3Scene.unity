@@ -192,7 +192,7 @@ PrefabInstance:
     - target: {fileID: 4408219414232292932, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
       propertyPath: minGreen
-      value: 30
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4408219414232292932, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
@@ -1562,7 +1562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fef4a6b36efb48429b88ca8b77990de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 100
   countdownText: {fileID: 1901900496}
   GameOverScreen: {fileID: 33746112}
 --- !u!114 &1678583763

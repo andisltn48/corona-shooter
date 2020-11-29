@@ -351,7 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fef4a6b36efb48429b88ca8b77990de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 90
   countdownText: {fileID: 678316517}
   GameOverScreen: {fileID: 1758977860}
 --- !u!114 &340972040
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 725606477}
-  mTotalVirus: 20
+  mTotalVirus: 25
   mTimeToSpawn: 0
 --- !u!4 &351589633
 Transform:

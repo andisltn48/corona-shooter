@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fef4a6b36efb48429b88ca8b77990de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 90
   countdownText: {fileID: 404759926}
   GameOverScreen: {fileID: 1851244084}
 --- !u!114 &72652945
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 1922051130}
-  mTotalVirus: 20
+  mTotalVirus: 30
   mTimeToSpawn: 0
 --- !u!4 &134633439
 Transform:
@@ -1998,7 +1998,7 @@ PrefabInstance:
     - target: {fileID: 4408219414232292932, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
       propertyPath: minRed
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5417515162667368841, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
