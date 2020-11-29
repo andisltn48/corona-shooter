@@ -657,6 +657,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254314037}
   m_CullTransparentMesh: 0
+--- !u!1 &311138613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 311138616}
+  - component: {fileID: 311138615}
+  - component: {fileID: 311138614}
+  m_Layer: 0
+  m_Name: _SpawnControllerByk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &311138614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311138613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bda41c0593eea4584c23a7f4ddb27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mVirusObj: {fileID: 614945095}
+  mTotalVirus: 15
+  mTimeToSpawn: 0
+--- !u!114 &311138615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311138613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f1ca46e3efd2b4cb1e7a4fb55051a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mVirusObj: {fileID: 331245488}
+  mTotalVirus: 25
+  mTimeToSpawn: 0
+--- !u!4 &311138616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311138613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: -15.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &331245487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -702,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1619c6bd3374c0046ad33e54840af90b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1619c6bd3374c0046ad33e54840af90b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -817,7 +879,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431521926
 GameObject:
@@ -1065,8 +1127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 614945095}
-  mTotalVirus: 20
-  mTimeToSpawn: 4
+  mTotalVirus: 40
+  mTimeToSpawn: 3
 --- !u!114 &517230983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1080,7 +1142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 331245488}
-  mTotalVirus: 30
+  mTotalVirus: 40
   mTimeToSpawn: 1
 --- !u!4 &517230984
 Transform:
@@ -1224,7 +1286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 48abb3d8ab2b48f4aad6c8ebe49d32f9, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 48abb3d8ab2b48f4aad6c8ebe49d32f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1389,7 +1451,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1532525426
 GameObject:
@@ -1583,7 +1645,7 @@ RectTransform:
   - {fileID: 509159882}
   - {fileID: 33746111}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2454,5 +2516,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
