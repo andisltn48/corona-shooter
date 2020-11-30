@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -192,7 +192,7 @@ PrefabInstance:
     - target: {fileID: 4408219414232292932, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
       propertyPath: minRed
-      value: 40
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5417515162667368841, guid: 0c48d2ffbcb30b840b9c716e1ee0f42a,
         type: 3}
@@ -356,6 +356,68 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 34058685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &87602423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 87602426}
+  - component: {fileID: 87602425}
+  - component: {fileID: 87602424}
+  m_Layer: 0
+  m_Name: _SpawnControllerByk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &87602424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87602423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bda41c0593eea4584c23a7f4ddb27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mVirusObj: {fileID: 871172657}
+  mTotalVirus: 35
+  mTimeToSpawn: 0
+--- !u!114 &87602425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87602423}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f1ca46e3efd2b4cb1e7a4fb55051a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mVirusObj: {fileID: 2083087210}
+  mTotalVirus: 0
+  mTimeToSpawn: 0
+--- !u!4 &87602426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87602423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: -14.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &229514951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,6 +425,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1759187028}
     m_Modifications:
+    - target: {fileID: 6317807285015016360, guid: ae15c17c3788d674aac6ab60078745ca,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317807285015016360, guid: ae15c17c3788d674aac6ab60078745ca,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317807285015016360, guid: ae15c17c3788d674aac6ab60078745ca,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6317807285015016362, guid: ae15c17c3788d674aac6ab60078745ca,
         type: 3}
       propertyPath: m_Name
@@ -878,7 +955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 48abb3d8ab2b48f4aad6c8ebe49d32f9, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 48abb3d8ab2b48f4aad6c8ebe49d32f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1611,7 +1688,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1645532612
 GameObject:
@@ -1645,7 +1722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 871172657}
   mTotalVirus: 50
-  mTimeToSpawn: 2
+  mTimeToSpawn: 1
 --- !u!114 &1645532614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1659,8 +1736,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mVirusObj: {fileID: 2083087210}
-  mTotalVirus: 29
-  mTimeToSpawn: 1
+  mTotalVirus: 0
+  mTimeToSpawn: 0
 --- !u!4 &1645532615
 Transform:
   m_ObjectHideFlags: 0
@@ -1784,7 +1861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fef4a6b36efb48429b88ca8b77990de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 120
   countdownText: {fileID: 711592110}
   GameOverScreen: {fileID: 34058687}
 --- !u!114 &1759187025
@@ -1867,7 +1944,7 @@ RectTransform:
   - {fileID: 1493298296}
   - {fileID: 34058686}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2283,7 +2360,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2083087209
 PrefabInstance:
@@ -2330,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1619c6bd3374c0046ad33e54840af90b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 1619c6bd3374c0046ad33e54840af90b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2423,5 +2500,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
